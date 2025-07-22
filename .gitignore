@@ -1,0 +1,44 @@
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Power BI temporary and backup files
+*.pbix~*
+*.tmp
+
+# Ignore data files 
+data/
+*.csv
+# *.xlsx
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore model binaries or weights
+*.pkl
+*.joblib
+*.h5
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+
+# Ignore environment files 
+.env
+venv/
+*.env
+
+# Ignore Jupyter runtime
+*.log
+.DS_Store
+
+# PyCharm / IntelliJ IDEA project folder
+.idea/
+*.iml
+.vscode/
+
+
+# Ignor some file
+main.ipynb
+main.py
